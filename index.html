@@ -224,6 +224,9 @@ footer{border-top:1px solid var(--line);padding:24px 0;display:flex;justify-cont
 /* ── 가독성: 작은 글씨를 키우고 대비를 높임 ── */
 h2,.card h3,.pub h3,.timeline strong{color:var(--head)}
 .join h2{color:var(--on-dark)}
+.tbdbox{display:flex;flex-direction:column;gap:6px;align-items:center;text-align:center;padding:44px 24px;border:1px dashed #a9bacd;border-radius:12px;background:var(--surface)}
+.tbdbox strong{font-size:18px;color:var(--head)}
+.tbdbox span{font-size:15px;color:var(--muted)}
 .photorow{display:flex;align-items:flex-end;gap:16px;flex-wrap:wrap}
 .pi a.insta{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--dark-line);border-radius:8px;padding:8px 12px;margin:0 0 24px;font-size:14px;transition:background .2s}
 .pi a.insta:hover{background:#ffffff1f}
@@ -273,7 +276,11 @@ footer{font-size:13px}
 <!-- ═════ RESEARCH ═════ -->
 <section id="research" class="section"><div class="wrap">
   <div class="head rv">
-    <div><h2>Research</h2><p class="lead">콘크리트 유변학과 유동 해석을 바탕으로, 산업 부산물 재활용과 저탄소 건설재료를 연구합니다.</p></div>  </div>
+    <div><h2>Research</h2></div>  </div>
+  <div class="tbdbox rv"><span>This section is under construction.</span></div>
+  <!-- 아래 <template> 안의 내용은 화면에 표시되지 않는 보관본입니다. 다시 쓰려면 <template> 태그 두 줄을 지우세요. -->
+  <template id="research-draft">
+  <p class="lead">콘크리트 유변학과 유동 해석을 바탕으로, 산업 부산물 재활용과 저탄소 건설재료를 연구합니다.</p>
   <div class="cards">
     <article class="card rv">
       <div class="fig"><svg viewBox="0 0 360 190" aria-hidden="true">
@@ -307,6 +314,7 @@ footer{font-size:13px}
       <div class="tags"><span>Slag valorization</span><span>Low-carbon binders</span><span>CO₂ utilization</span></div>
     </article>
   </div>
+  </template>
 </div></section>
 
 <!-- ═════ PEOPLE ═════ -->
